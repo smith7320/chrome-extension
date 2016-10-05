@@ -1,0 +1,48 @@
+/* Popup CSS */
+.popup {
+	background-color: #F93C3C;
+	width: 300px;
+	height: 550px;
+	font-size: 10px;
+}
+
+#options {
+	text-align: right;
+}
+
+#options img { 
+    transition: width 0.3s, height 0.3s;
+}
+
+#options img:hover {
+	transform: scale(0.95);
+}
+
+.options {
+	background-color: #666666;
+}
+
+.title {
+	color: #FFFFFF;
+	font: Arial;
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	table-layout: fixed;
+	margin: auto;
+	padding: 2px 0px;
+	align: center;
+}
+
+.channel {
+	text-align: center;
+	width: 90px;
+
+.title {
+	text-align: left;
+	width: 210px;
+}
+
+#results {
+	overflow: hidden;
+}

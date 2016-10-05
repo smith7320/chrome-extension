@@ -1,0 +1,14 @@
+{
+	"name": "UpdateYou",
+	"manifest_version": 2,
+	"version": "1.0",
+	"description": "Keep up to date with your youtube subscriptions.",
+	"browser_action":	{
+		"default_icon": "icon.png",
+		"default_popup": "main.html"
+	},
+	"options_page": "options.html",
+	"permissions": [
+		"storage"
+	]
+}
